@@ -1,0 +1,40 @@
+.NavBar{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.header{
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: center;
+    background: linear-gradient( rgba(77, 71, 71, 0.5), rgba(26, 25, 25, 0.5) ), url(../Images/img/Tuacahn.jpeg);
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+body{
+  background-color: rgb(248, 182, 182);
+}
+.tableauChart{
+  position: relative;
+  margin: 10px;
+}
+.caption{
+  background-color: rgb(117, 115, 115);
+  opacity: 90%;
+  font-size: x-large;
+  text-align: center;
+  color: aliceblue;
+}
+.footer{
+  border-top: 2px solid rgb(117, 115, 115);
+  text-align: center;
+}
